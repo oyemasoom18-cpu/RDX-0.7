@@ -7,10 +7,10 @@ const CEREBRAS_API_URL = 'https://api.cerebras.ai/v1/chat/completions';
 
 const API_KEYS = ['csk-ndtww2mknrhttp868w92hv443j48jf442j3h86kkyw5jhdxn'];
 
-const OWNER_UID = global.config.ADMINBOT[0] || '100009012838085';
-const OWNER_NAME = 'Sardar RDX';
+const OWNER_UID = global.config.ADMINBOT[0] || '100004508956138';
+const OWNER_NAME = 'DANII';
 
-const MANO_UID = global.config.ADMINBOT[1] || '100087163490159';
+const MANO_UID = global.config.ADMINBOT[1] || '';
 const MANO_NAME = 'Mano';
 
 const ALL_OWNERS = global.config.ADMINBOT || [OWNER_UID];
@@ -1217,3 +1217,4 @@ module.exports = {
     await handleAIChat(api, event, send, config, client, body, userName, userGender, senderID, threadID, messageID);
   }
 };
+
